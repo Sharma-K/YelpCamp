@@ -78,7 +78,7 @@ passport.serializeUser(User.serializeUser()); // how do we store the user in the
 passport.deserializeUser(User.deserializeUser()) // how to get user out of the data
 
 
-
+//lol
 app.use((req, res, next)=>{
     // console.log(req.query);
     res.locals.currentUser = req.user;
